@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/codigoc13-piawe/static/css/main.9d4b31ed.css",
+    "main.js": "/codigoc13-piawe/static/js/main.61d1de4a.js",
+    "static/media/Cocogoose Pro-trial.ttf": "/codigoc13-piawe/static/media/Cocogoose Pro-trial.fc4c5187ea318bde306b.ttf",
+    "static/media/Cocogoose Pro Semilight-trial.ttf": "/codigoc13-piawe/static/media/Cocogoose Pro Semilight-trial.f0e9ee6119d8d2ec167f.ttf",
+    "static/media/Cocogoose Pro Light-trial.ttf": "/codigoc13-piawe/static/media/Cocogoose Pro Light-trial.f77876cfc3790e5308f4.ttf",
+    "index.html": "/codigoc13-piawe/index.html",
+    "main.9d4b31ed.css.map": "/codigoc13-piawe/static/css/main.9d4b31ed.css.map",
+    "main.61d1de4a.js.map": "/codigoc13-piawe/static/js/main.61d1de4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d4b31ed.css",
+    "static/js/main.61d1de4a.js"
+  ]
+}
