@@ -1,0 +1,45 @@
+.nav{
+    height: 70px;
+    background-color: var(--white);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cocogoose-Regular';
+}
+.nav-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.nav-logo a {
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+}
+.nav-box li a {
+    color: var(--black);
+    font-size: 1.6rem;
+    transition: all 200ms ease;
+}
+.nav-box li a:hover,
+.nav-box li a:focus {
+    color: var(--green);
+}
+.btn-user a {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid var(--green);
+    color: var(--green) !important;
+}
+.btn-user a:hover,
+.btn-user a:focus {
+    background-color: var(--green);
+    color: var(--white) !important;
+}

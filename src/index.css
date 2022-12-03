@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Cocogoose-Regular'; 
+  src: url('../src/fonts/Cocogoose\ Pro\ Light-trial.ttf');
+}
+@font-face {
+  font-family: 'Cocogoose-Medium';
+  src: url('../src/fonts/Cocogoose\ Pro\ Semilight-trial.ttf');
+}
+@font-face {
+  font-family: 'Cocogoose-Bold';
+  src: url('../src/fonts/Cocogoose\ Pro-trial.ttf');
+}
+:root {
+  --yellow: #FFCB05;
+  --black: #111111;
+  --blue: #1655B2;
+  --green: #0DCCAC;
+  --white: #FFFFFF;
+  --gray: #707070;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #F5F5F5;
+}

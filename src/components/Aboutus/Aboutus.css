@@ -1,0 +1,15 @@
+.aboutus-content {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutus-content p {
+    max-width: 500px;
+    color: var(--black);
+    font-size: 2rem;
+    font-family: 'Cocogoose-Regular';
+}
+.image-aboutus img {
+    width: 120%;
+}
