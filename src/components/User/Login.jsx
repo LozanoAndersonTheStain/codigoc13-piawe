@@ -9,7 +9,7 @@ const Login = () => {
 
   const postLogin = async () => {
     const response = await axios.post(
-      "https://c13-app-back-production.up.railway.app/api/auth/login"
+      "https://c13-app-back.up.railway.app/api/auth/login"
     );
     setLogin(response.data.login);
   };

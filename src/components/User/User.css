@@ -1,10 +1,12 @@
 .contenedor-formulario{
     background-color: var(--white);
-    width: 400px;
-    height: 300px;
+    width: 1000px;
+    height: 640px;
     border: 2px solid var(--green);
     margin: auto;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     font-size: 25px;
@@ -19,7 +21,9 @@ input{
     display: flex;
     margin: auto;
     flex-direction: column;
-    
+    width: 350px;
+    height: 35px;
+
 
 
 }
@@ -27,4 +31,16 @@ button{
     display: flex;
     margin: auto;
     flex-direction: column;
+    width: 230px;
+    height: 34px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+
+input::placeholder{
+    text-align: center;
+}
+
+
+

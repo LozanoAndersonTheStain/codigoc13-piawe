@@ -11,10 +11,11 @@ const Nav = () => {
       <ul className='nav-box'>
         <li><Link to='Careers'>Carreras</Link></li>
         <li><Link to="Aboutus">Nosotros</Link></li>
-        <li><Link >Noticias</Link></li>
+        <li><Link to='News' >Noticias</Link></li>
         <li><Link to="Contact">Contacto</Link></li>
         <li className='btn-user'><Link to="Login">Ingresar</Link></li>
         <li className='btn-user'><Link to="Singin">Regístrarse</Link></li>
+
       </ul>
 
     </nav>

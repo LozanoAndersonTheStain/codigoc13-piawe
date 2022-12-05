@@ -18,7 +18,7 @@ const SingIn = () => {
 
   const postSingIn = async () => {
     const response = await axios.post(
-      "https://c13-app-back-production.up.railway.app/api/auth/login"
+      "https://c13-app-back.up.railway.app/api/users"
     );
     setSingIn(response.data.login);
   };
@@ -98,7 +98,6 @@ const SingIn = () => {
       />
 
       <button type="submit">Ingresar</button>
-      <a href="/">Recuperar contraseña</a>
     </form>
   );
 };

@@ -6,7 +6,7 @@ const Careers = () => {
     const [careers, setCareers] = useState([]);
 
     const getCareers = async () => {
-        const response = await axios.get("https://c13-app-back-production.up.railway.app/api/careers/");
+        const response = await axios.get("https://c13-app-back.up.railway.app/api/careers");
         setCareers(response.data.careers);
     }
 

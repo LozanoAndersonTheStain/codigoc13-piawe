@@ -7,6 +7,7 @@ import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import Login from './components/User/Login'
 import SingIn from './components/User/SingIn'
+import News from './News/News'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Singin' element={<SingIn/>}/>
+        <Route path='/News'element={<News/>}/>
       </Routes>
     </div>
   )
