@@ -24,6 +24,7 @@ const SingIn = () => {
   };
 
   return (
+    <div className="formula">
     <form className="contenedor-formulario" onSubmit={postSingIn}>
       <h1>Sing In</h1>
 
@@ -49,14 +50,15 @@ const SingIn = () => {
       />
 
       <input
-        type="text"
+        type="numberDocument"
         placeholder="Tipo de documento"
         onChange={(e) => setTypeDocument(e.target.value)}
         value={typeDocument}
+        required
       />
 
       <input
-        type="text"
+        type="numberDocument"
         placeholder="Número de documento"
         onChange={(e) => setNumberDocument(e.target.value)}
         value={numberDocument}
@@ -70,10 +72,11 @@ const SingIn = () => {
       />
 
       <input
-        type="text"
+        type="tel"
         placeholder="Número de telefono"
         onChange={(e) => setPhoneNumbers(e.target.value)}
         value={phoneNumber}
+        required
       />
 
       <input
@@ -81,6 +84,7 @@ const SingIn = () => {
         placeholder="Correo"
         onChange={(e) => setCorreo(e.target.value)}
         value={correo}
+        required
       />
 
       <input
@@ -88,6 +92,7 @@ const SingIn = () => {
         placeholder="Contraseña"
         onChange={(e) => setPassword(e.target.value)}
         value={password}
+        required
       />
 
       <input
@@ -95,10 +100,12 @@ const SingIn = () => {
         placeholder="Cual es tú rol"
         onChange={(e) => setRole(e.target.value)}
         value={role}
+        required
       />
 
       <button type="submit">Ingresar</button>
     </form>
+    </div>
   );
 };
 

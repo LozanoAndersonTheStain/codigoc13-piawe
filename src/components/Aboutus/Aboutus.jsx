@@ -7,7 +7,7 @@ const Aboutus = () => {
 
   const getAboutus = async () => {
     const response = await axios.get(
-      "hhttps://c13-app-back.up.railway.app/api/articles?from=1&lot=5"
+      "https://c13-app-back.up.railway.app/api/articles?lot=3"
     );
     setAboutus(response.data.articles);
   };
@@ -17,31 +17,37 @@ const Aboutus = () => {
   }, []);
 
   return (
-    <div>
+    <div className="todo">
+      <div className="contenedor">
+
       {aboutus.length === 0 ? (
         <div className="no-info">
           <h2>No hay información sobre nosotros</h2>
         </div>
       ) : (
         aboutus.map((about) => (
-          <div key={aboutus.id}>
-            <article>
-              <p>{about.history}</p>
-            </article>
+          <div className="conte">
+          <div key={aboutus.id} className="container-abouts">
+            <div className="tarjetas-about">
+              <p>{about.description}</p>
+            </div>
+          </div>
           </div>
         ))
-      )}
+        )}
 
-      <div className="aboutus-content">
+    
+          </div>
+          <div className="aboutus-content">
         <iframe
           width="560"
-          height="315"
+          height="400"
           src="https://www.youtube.com/embed/C166BCGgD-c"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+          ></iframe>
       </div>
     </div>
   );

@@ -1,20 +1,31 @@
+.formula,
+.forlo {
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contenedor-formulario{
     background-color: var(--white);
-    width: 1000px;
+    width: 100%;
+    max-width: 600px;
     height: 640px;
-    border: 2px solid var(--green);
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Cocogoose-Regular';
+    border-radius: 20px;
 }
 h1{
     font-size: 25px;
     color: #000;
     font-family: sans-serif;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 14px;
     text-align: center;
+    font-family: 'Cocogoose-Regular';
+
 }
 
 input{
@@ -23,6 +34,12 @@ input{
     flex-direction: column;
     width: 350px;
     height: 35px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+    padding: 0 20px;
+    font-family: 'Cocogoose-Regular';
+
 
 
 
@@ -30,16 +47,36 @@ input{
 button{
     display: flex;
     margin: auto;
-    flex-direction: column;
     width: 230px;
-    height: 34px;
-    text-align: center;
+    height: 40px;
     align-items: center;
     justify-content: center;
+    font-family: 'Cocogoose-Regular';
+    font-size: 1.8rem;
+    border: none;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 30px;
 }
 
-input::placeholder{
+.formulario-login {
     text-align: center;
+    height: 260px;
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--white);
+    border-radius: 20px;
+    
+}
+.formulario-login input {
+    margin-bottom: 14px;
+}
+.forlo a {
+    margin-bottom: 10px;
+    font-family: 'Cocogoose-Regular';
+    font-size: 1.2rem;
+    display: block;
+    color: var(--green);
 }
 
 

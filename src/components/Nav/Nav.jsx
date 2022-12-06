@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Nav/Nav.css'
+import Logo from './logo_Mesa de trabajo 1.png'
 
 const Nav = () => {
   return (
     <nav className='nav'>
 
-      <li className='nav-logo'><Link to='/'>ecc</Link></li>
+      <li className='nav-logo'><Link to='/'><img src={Logo} alt="" /></Link></li>
 
       <ul className='nav-box'>
         <li><Link to='Careers'>Carreras</Link></li>

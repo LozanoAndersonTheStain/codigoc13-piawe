@@ -17,8 +17,9 @@ const Login = () => {
   
 
   return (
-    <form className="contenedor-formulario" onSubmit={postLogin}>
-      <h1>login</h1>
+    <div className="forlo">
+    <form className="formulario-login" onSubmit={postLogin}>
+      <h1>Login</h1>
       <input
         type="email"
         placeholder="correo"
@@ -31,9 +32,10 @@ const Login = () => {
         onChange={(e) => setPassword(e.target.value)}
         value={password}
       />
-      <button type="submit">Ingresar</button>
       <a href="/">Recuperar contraseña</a>
+      <button type="submit">Ingresar</button>
     </form>
+    </div>
   );
 };
 

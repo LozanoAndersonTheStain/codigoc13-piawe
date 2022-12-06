@@ -1,14 +1,14 @@
 import axios from "axios";
 import React from "react";
 import { useEffect, useState } from "react";
-import "./News.css";
+import '../News/News.css'
 
 const News = () => {
   const [news, setNews] = useState([]);
 
   const getNews = async () => {
-    const response = await axios.get("https://c13-app-back.up.railway.app/api/novelties");
-    response(setNews.data);
+    const response = await axios.get("https://c13-app-back.up.railway.app/api/novelties?");
+    setNews(response.data.novelties)
   };
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const News = () => {
                     <div className="noticia-caja">
                         <div className="noticia-tarjeta">
                             <picture className="imagen-noticia">
-                                <img src={mostrandoNoticias.image} alt="" />
+                                <img src='https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_960_720.jpg' alt="" />
                             </picture>
                             <h2>{mostrandoNoticias.title}</h2>
                             <div className="caja-fecha">

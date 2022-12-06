@@ -7,7 +7,7 @@ import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import Login from './components/User/Login'
 import SingIn from './components/User/SingIn'
-import News from './News/News'
+import News from './components/News/News.jsx'
 
 
 const App = () => {

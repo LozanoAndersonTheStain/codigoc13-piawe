@@ -1,7 +1,7 @@
 .no-info {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 20%;
     transform: translate(-50%, -50%);
     padding: 16px 32px;
     background-color: var(--green);
@@ -53,6 +53,7 @@
     cursor: pointer;
     max-width: 400px;
 }
+
 .careers-box details p {
     font-size: 1.6rem;
     font-family: 'Cocogoose-Regular';
