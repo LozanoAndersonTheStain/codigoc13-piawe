@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/codigoc13-piawe/static/css/main.351d4551.css",
-    "main.js": "/codigoc13-piawe/static/js/main.b91263ba.js",
+    "main.css": "/codigoc13-piawe/static/css/main.2e67bdc3.css",
+    "main.js": "/codigoc13-piawe/static/js/main.4046373f.js",
     "static/media/Cocogoose Pro-trial.ttf": "/codigoc13-piawe/static/media/Cocogoose Pro-trial.fc4c5187ea318bde306b.ttf",
     "static/media/Cocogoose Pro Semilight-trial.ttf": "/codigoc13-piawe/static/media/Cocogoose Pro Semilight-trial.f0e9ee6119d8d2ec167f.ttf",
     "static/media/Cocogoose Pro Light-trial.ttf": "/codigoc13-piawe/static/media/Cocogoose Pro Light-trial.f77876cfc3790e5308f4.ttf",
+    "static/media/logo_Mesa de trabajo 1.png": "/codigoc13-piawe/static/media/logo_Mesa de trabajo 1.5a5a0d1c43968dd62189.png",
     "index.html": "/codigoc13-piawe/index.html",
-    "main.351d4551.css.map": "/codigoc13-piawe/static/css/main.351d4551.css.map",
-    "main.b91263ba.js.map": "/codigoc13-piawe/static/js/main.b91263ba.js.map"
+    "main.2e67bdc3.css.map": "/codigoc13-piawe/static/css/main.2e67bdc3.css.map",
+    "main.4046373f.js.map": "/codigoc13-piawe/static/js/main.4046373f.js.map"
   },
   "entrypoints": [
-    "static/css/main.351d4551.css",
-    "static/js/main.b91263ba.js"
+    "static/css/main.2e67bdc3.css",
+    "static/js/main.4046373f.js"
   ]
 }
